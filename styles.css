@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+*{
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+}
+.container-flex{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    border: 1px solid black;
+}
+.card{
+    display: flex; 
+    border: 1px solid black;
+    flex-direction: row;
+    width: 500px;
+    height: 370px;
+    align-items: center;
+    justify-content: center;
+}
+.card-interior1{
+    display: flex;
+    border: 1px solid violet;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 90%;
+    margin: 3px;
+}
+.card-interior1 .title{
+    border: 1px solid black;
+    text-align: center;
+    align-items: center;
+    height: 20%;
+    margin: 5px;
+}
+.card-interior1 .circle{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid blue;
+    height: 200px;
+    width: 110px;
+    margin: 5px;
+    justify-content: center;
+    border-radius: 80px;
+}
+.circle h4{
+    display: flex;
+    height:70% ;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.circle p{
+    margin:0;
+    text-align: center;
+    height: 20%;
+}
+.card-interior1 .general-result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-interior1 .description p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+    width: 73%;
+    font-size: 15px;
+}
+.card-interior2{
+    display: flex;
+    border: 1px solid red;
+    flex-direction: column;
+    width: 50%;
+    height: 90%;
+    margin: 3px;
+    margin-left: 20px;
+}
+
+.results{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    width: 94%;
+}
+ul{
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+    height: 20%;
+}
+.result-box{
+    display: flex;
+    flex-direction: row;
+    background-color: bisque;
+    margin: 10px 5px 0px 0px;
+    border-radius: 10px;
+}
+.result-type{
+    display: flex;
+    margin-left: 10px;
+    flex-basis: 50%;
+}
+.porcentage{
+    display: flex;
+    flex-basis: 50%;
+    justify-content: end;
+    margin-right: 10px;
+}
+.continue{
+    display: flex;
+    background-color: antiquewhite;
+    justify-content: start;
+    height: 10%;
+}
+.continue button{
+    width: 94%;
+    margin-left: 0;
+    border-radius: 10px;
+    
+
+}
+

@@ -21,8 +21,8 @@ body {
     flex-direction: row;
     width: 500px;
     height: 370px;
-    align-items: center;
-    justify-content: center;
+    align-items: start;
+    justify-content: start;
 }
 .card-interior1{
     display: flex;
@@ -31,22 +31,24 @@ body {
     justify-content: center;
     align-items: center;
     width: 50%;
-    height: 90%;
-    margin: 3px;
+    height: 100%;
 }
 .card-interior1 .title{
-    border: 1px solid black;
     text-align: center;
-    align-items: center;
     height: 20%;
     margin: 5px;
+}
+.card-interior2 .title{
+    display: flex;
+    height: 12%;
+    margin-left: 5px;
 }
 .card-interior1 .circle{
     display: flex;
     flex-direction: column;
     border: 1px solid blue;
-    height: 200px;
-    width: 110px;
+    height: 150px;
+    width: 130px;
     margin: 5px;
     justify-content: center;
     border-radius: 80px;
@@ -81,8 +83,7 @@ body {
     border: 1px solid red;
     flex-direction: column;
     width: 50%;
-    height: 90%;
-    margin: 3px;
+    height: 100%;
     margin-left: 20px;
 }
 
@@ -101,7 +102,6 @@ ul{
 .result-box{
     display: flex;
     flex-direction: row;
-    background-color: bisque;
     margin: 10px 5px 0px 0px;
     border-radius: 10px;
 }
@@ -118,9 +118,9 @@ ul{
 }
 .continue{
     display: flex;
-    background-color: antiquewhite;
     justify-content: start;
     height: 10%;
+    margin-top: 6%;
 }
 .continue button{
     width: 94%;

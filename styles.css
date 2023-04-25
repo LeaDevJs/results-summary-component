@@ -110,6 +110,9 @@ ul{
     margin-left: 10px;
     flex-basis: 50%;
 }
+.result-type i{
+    margin-right: 10px;
+}
 .porcentage{
     display: flex;
     flex-basis: 50%;
@@ -126,7 +129,29 @@ ul{
     width: 94%;
     margin-left: 0;
     border-radius: 10px;
-    
-
+}
+.icon-reaction{
+    background-image: url("./assets/images/icon-reaction.svg");
+    height: 10px;
+    width: 10px;
+    padding: 5px;
+}
+.icon-memory{
+    background-image: url("./assets/images/icon-memory.svg");
+    height: 10px;
+    width: 10px;
+    padding: 5px;
+}
+.icon-verbal{
+    background-image: url("./assets/images/icon-verbal.svg");
+    height: 10px;
+    width: 10px;
+    padding: 5px;
+}
+.icon-visual{
+    background-image: url("./assets/images/icon-visual.svg");
+    height: 10px;
+    width: 10px;
+    padding: 5px;
 }
 

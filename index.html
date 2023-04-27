@@ -6,7 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="styles.css">
-  
+  <script src="./index.js"></script>
   <title>Frontend Mentor | Results summary component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -44,10 +44,10 @@
       </div>
       <div class="results">
         <ul>
-          <li class="result-box" style="color: hsl(0, 100%, 67%); background-color:hsla(0, 100%, 67%, 0.082) ;"><p class="result-type"><i class="icon-reaction"></i> Reaction</p> <p class="porcentage">80 / 100</p> </li>
-          <li class="result-box" style="color: hsl(39, 100%, 56%); background-color: hsla(39, 100%, 56%, 0.089)"><p class="result-type"> <i class="icon-memory"></i> Memory</p> <p class="porcentage">92 / 100</p> </li>
-          <li class="result-box" style="color: hsl(166, 100%, 37%); background-color:hsla(166, 100%, 37%, 0.082)"><p class="result-type"> <i class="icon-verbal"></i> Verbal</p> <p class="porcentage">61 / 100</p> </li>
-          <li class="result-box" style="color: hsl(234, 85%, 45%); background-color:hsl(234, 85%, 45%,0.082)"><p class="result-type"> <i class="icon-visual"></i> Visual</p> <p class="porcentage">72 / 100</p> </li>
+          <li class="result-box" style="color: hsl(0, 100%, 67%); background-color:hsla(0, 100%, 67%, 0.082) ;"><p class="result-type" id="reaction"><i class="icon-reaction"></i> </p> <p class="porcentage"><span>80</span> <span style="color:#9fa1af"> /100</span></p> </li>
+          <li class="result-box" style="color: hsl(39, 100%, 56%); background-color: hsla(39, 100%, 56%, 0.089)"><p class="result-type"> <i class="icon-memory"></i> Memory</p> <p class="porcentage"><span>92</span> <span style="color:#9fa1af"> /100</span></p> </li>
+          <li class="result-box" style="color: hsl(166, 100%, 37%); background-color:hsla(166, 100%, 37%, 0.082)"><p class="result-type"> <i class="icon-verbal"></i> Verbal</p> <p class="porcentage">61 <span></span> <span style="color:#9fa1af"> /100</span></p> </li>
+          <li class="result-box" style="color: hsl(234, 85%, 45%); background-color:hsl(234, 85%, 45%,0.082)"><p class="result-type"> <i class="icon-visual"></i> Visual</p> <p class="porcentage"><span>72 </span><span style="color:#9fa1af; "> /100</span></p> </li>
         </ul>
       </div>
       <div class="continue">
@@ -62,5 +62,6 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
+  
 </body>
 </html>
